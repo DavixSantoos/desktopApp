@@ -12,11 +12,10 @@
                   Padding="15,8" Grid.Row="0"
                   ColumnDefinitions="40,*">
                 
-                <ImageButton x:Name="BtnVoltar"
-                  Source="botaovoltar.png"
+                <Button x:Name="BtnVoltar"
+                  Text="←"
                              WidthRequest="25"
                              HeightRequest="25"
-                             Aspect="AspectFit"
                              VerticalOptions="Center"
                              HorizontalOptions="Start"
                              Padding="0"

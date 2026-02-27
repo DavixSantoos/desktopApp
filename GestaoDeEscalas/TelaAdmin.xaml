@@ -76,7 +76,8 @@
             <VerticalStackLayout Spacing="20">
 
                 <Label Text="Administração"
-               FontFamily="BebasNeue"
+               FontFamily="Bold"
+               FontAttributes="Bold"
                FontSize="28"
                TextColor="White"
                HorizontalOptions="Center"/>

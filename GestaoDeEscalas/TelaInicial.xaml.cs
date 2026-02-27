@@ -9,12 +9,7 @@ public partial class TelaInicial : ContentPage
         InitializeComponent();
     }
 
-    private void OnFecharMenuClicked(object sender, EventArgs e)
-    {
-        MenuGaveta.TranslateTo(-320, 0, 250, Easing.CubicOut);
-        SombraMenu.Opacity = 0;
-        SombraMenu.InputTransparent = true;
-    }
+    
 
     private async void BtnPerfil_Clicked(object sender, EventArgs e)
     {

@@ -9,9 +9,9 @@
        
         <Grid RowDefinitions="Auto,*">
 
-            <Grid BackgroundColor="#2C2C2E" Padding="15,15" Grid.Row="0" ColumnDefinitions="40,*">
-                <ImageButton x:Name="BtnVoltar" 
-                             Source="botaovoltar.png" 
+            <Grid BackgroundColor="Black" Padding="15,15" Grid.Row="0" ColumnDefinitions="40,*">
+                <Button x:Name="BtnVoltar" 
+                             Text="←"
                              WidthRequest="30"
                              HeightRequest="30" 
                              VerticalOptions="Center"
